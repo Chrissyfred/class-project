@@ -53,9 +53,13 @@ footer {
 }
 
 /*---------- TABLET ----------*/
+
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  .col-3 {
+    width: 50%;
+  }
   header {
     background-color: #160a1f;
   }
@@ -70,6 +74,7 @@ footer {
 
   #column-3 {
     background-color: #361745;
+    width: 100%;
   }
 
   footer {
@@ -79,6 +84,9 @@ footer {
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+  .col-3 {
+    width: 33.3%;
+  }
   header {
     background-color: #c8815b;
   }
@@ -93,6 +101,7 @@ footer {
 
   #column-3 {
     background-color: #c69f53;
+    width: 33.3%;
   }
 
   footer {
